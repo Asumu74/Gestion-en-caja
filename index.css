@@ -1,0 +1,76 @@
+/* Custom Theme Overrides */
+
+:root {
+  --primary: #2563eb;
+}
+
+/* Dark Theme */
+.dark body {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+.dark .bg-white {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #0f172a !important;
+}
+
+.dark .text-slate-800, 
+.dark .text-slate-900,
+.dark .text-slate-700 {
+  color: #f1f5f9 !important;
+}
+
+.dark .text-slate-500, 
+.dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.dark .border-slate-200, 
+.dark .border-slate-100 {
+  border-color: #334155 !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #1e293b !important;
+}
+
+/* Indigo Theme */
+.indigo .bg-blue-600 { background-color: #4f46e5 !important; }
+.indigo .text-blue-600 { color: #6366f1 !important; }
+.indigo .bg-blue-50 { background-color: #eef2ff !important; }
+.indigo .border-blue-500 { border-color: #6366f1 !important; }
+.indigo .shadow-blue-600\/20 { shadow-color: rgba(79, 70, 229, 0.2) !important; }
+
+/* Emerald Theme */
+.emerald .bg-blue-600 { background-color: #10b981 !important; }
+.emerald .text-blue-600 { color: #10b981 !important; }
+.emerald .bg-blue-50 { background-color: #ecfdf5 !important; }
+.emerald .border-blue-500 { border-color: #10b981 !important; }
+.emerald .shadow-blue-600\/20 { shadow-color: rgba(16, 185, 129, 0.2) !important; }
+
+/* Rose Theme */
+.rose .bg-blue-600 { background-color: #f43f5e !important; }
+.rose .text-blue-600 { color: #f43f5e !important; }
+.rose .bg-blue-50 { background-color: #fff1f2 !important; }
+.rose .border-blue-500 { border-color: #f43f5e !important; }
+.rose .shadow-blue-600\/20 { shadow-color: rgba(244, 63, 94, 0.2) !important; }
+
+/* Scrollbar Customization */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #475569;
+}

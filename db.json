@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Serafin",
+      "username": "serafin",
+      "password": "12345",
+      "role": "Administrador",
+      "email": "serafin@pos.com",
+      "avatar": "S",
+      "avatarType": "initial",
+      "theme": "light"
+    },
+    {
+      "id": "2",
+      "name": "Cajero 1",
+      "username": "cajero1",
+      "password": "123",
+      "role": "Cajero",
+      "email": "cajero1@pos.com",
+      "avatar": "C",
+      "avatarType": "initial",
+      "theme": "light"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Copias",
+      "price": 100
+    },
+    {
+      "id": "2",
+      "name": "Impresiones",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "Tratamiento de textos",
+      "price": 1000
+    },
+    {
+      "id": "4",
+      "name": "Redactar instancias",
+      "price": 1500
+    },
+    {
+      "id": "5",
+      "name": "Escáner",
+      "price": 500
+    },
+    {
+      "id": "6",
+      "name": "Plastificación A3",
+      "price": 1000
+    },
+    {
+      "id": "7",
+      "name": "Plastificación A4",
+      "price": 500
+    },
+    {
+      "id": "8",
+      "name": "Plastificación A5",
+      "price": 500
+    },
+    {
+      "id": "9",
+      "name": "Encuadernación",
+      "price": 3000
+    },
+    {
+      "id": "10",
+      "name": "Tarjetas de Bach",
+      "price": 5000
+    },
+    {
+      "id": "11",
+      "name": "Tarjetas de visita",
+      "price": 3000
+    },
+    {
+      "id": "12",
+      "name": "Currículo vitae",
+      "price": 1500
+    },
+    {
+      "id": "13",
+      "name": "Sistema Operativo",
+      "price": 25000
+    },
+    {
+      "id": "14",
+      "name": "Instalación de Office",
+      "price": 10000
+    }
+  ],
+  "transactions": [],
+  "expenses": []
+}
